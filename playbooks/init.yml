@@ -7,7 +7,6 @@
       - panda
       - vagrant
   roles:
-    - user
     - packages
     - geerlingguy.docker
 
