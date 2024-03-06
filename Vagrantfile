@@ -41,9 +41,5 @@ Vagrant.configure("2") do |config|
         deployment_path: "~/ELK"
     }
   end
-  
-  if VAGRANT_COMMAND == "ssh"
-    config.ssh.username = 'panda'
-  end
 end
 
