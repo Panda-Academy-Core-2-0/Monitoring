@@ -16,8 +16,8 @@
   - name: Install docker-compose python package
     pip:
       name: 
-      - docker
-      - docker-compose<7.0 
+      - docker<7.0 
+      - docker-compose
 
   - name: Git checkout
     git:
