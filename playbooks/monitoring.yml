@@ -17,7 +17,7 @@
     pip:
       name: 
       - docker
-      - docker-compose
+      - docker-compose<7.0 
 
   - name: Git checkout
     git:
